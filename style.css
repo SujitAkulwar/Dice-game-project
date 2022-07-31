@@ -13,16 +13,15 @@ body{
 }
 .header{
     font-size: 10vh;
-    margin-top: 2vh;
+    height: 20vh;
 }
 .winner{
     font-size: 8vh;
-    margin-top: 2vh;
+    height: 20vh;
 }
 .img{
     display: flex;
     justify-content: center;
-    margin-top: 4vh;
 }
 .player1{
     height: 40vh;
@@ -39,5 +38,4 @@ button{
     height: 10vh;
     color: black;
     font-size: 3vh;
-    margin-top: 2vh;
 }
