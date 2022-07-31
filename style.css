@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
     color: snow;
     width: 100%;
+    font-weight: 900;
 }
 body{
     background-image: linear-gradient(to bottom, #0064f5, #124ecb, #1139a2, #0a257c, #001358);
@@ -38,4 +39,7 @@ button{
     height: 10vh;
     color: black;
     font-size: 3vh;
+}
+button:hover{
+    cursor: pointer;
 }
