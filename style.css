@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: snow;
+    width: 100%;
+}
+body{
+    background-image: linear-gradient(to bottom, #0064f5, #124ecb, #1139a2, #0a257c, #001358);
+    height: 100vh;
+    text-align: center;
+}
+.header{
+    font-size: 10vh;
+    margin-top: 2vh;
+}
+.winner{
+    font-size: 8vh;
+    margin-top: 2vh;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+.player1{
+    height: 40vh;
+    width: 40vh;
+    padding-right: 5vh;
+}
+.player2{
+    height: 40vh;
+    width: 40vh;
+    padding-left: 5vh;
+}
+button{
+    width: 30vh;
+    height: 10vh;
+    color: black;
+    font-size: 3vh;
+    margin-top: 2vh;
+}
