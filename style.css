@@ -27,18 +27,17 @@ body{
 .player1{
     height: 40vh;
     width: 40vh;
-    padding-right: 5vh;
 }
 .player2{
     height: 40vh;
     width: 40vh;
-    padding-left: 5vh;
 }
 button{
     width: 30vh;
     height: 10vh;
     color: black;
     font-size: 3vh;
+    margin: 2vh;
 }
 button:hover{
     cursor: pointer;

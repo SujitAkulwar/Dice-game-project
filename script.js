@@ -3,6 +3,16 @@ var image1 = document.getElementById("player1");
 var image2 = document.getElementById("player2");
 var dice1 = 1;
 var dice2 = 1;
+
+starting(image1);
+starting(image2);
+
+function starting(img){
+    img.style.backgroundImage = "url('Alea_1.png')";
+    img.style.backgroundRepeat = "no-repeat";
+    img.style.backgroundSize = "40vh 40vh";
+}
+
 function roll(){
     get_number();
     set_images();
@@ -25,4 +35,6 @@ function put_image(dice,img){
     else if(dice == 3){img.style.backgroundImage = "url('Alea_4.png')";}
     else if(dice == 4){img.style.backgroundImage = "url('Alea_5.png')";}
     else {img.style.backgroundImage = "url('Alea_6.png')";}
+    img.style.backgroundRepeat = "no-repeat";
+    img.style.backgroundSize = "40vh 40vh";
 }
