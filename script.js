@@ -16,6 +16,7 @@ function starting(img){
 function roll(){
     get_number();
     set_images();
+    Whos_winner();
 }
 
 function get_number(){
@@ -37,4 +38,10 @@ function put_image(dice,img){
     else {img.style.backgroundImage = "url('Alea_6.png')";}
     img.style.backgroundRepeat = "no-repeat";
     img.style.backgroundSize = "40vh 40vh";
+}
+
+function Whos_winner(){
+    if(dice1>dice2){winner.innerHTML = "Player 1 is winner !";}
+    else if(dice1<dice2){winner.innerHTML = "Player 2 is winner !";}
+    else{winner.innerHTML = "It's a tie !";}
 }
